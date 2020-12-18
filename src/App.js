@@ -1,15 +1,17 @@
 import React from 'react'
 import Navbar from './navbar.js'
 import './App.css'
-import Page from './page.js'
+import {tshirts} from './t-shirts.js'
+import Cardlist from './cardlist'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from './carousel.js'
 const App = () => {
   return (
     <div>
       < Navbar />
-     <div>
-      < Page />
-      
-      </div>
+      <Carousel /> 
+     <br></br>  
+     < Cardlist tshirt={tshirts}/>
       </div>
   );
 }

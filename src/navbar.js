@@ -204,6 +204,7 @@ export default function PrimarySearchAppBar() {
               </Badge>
             </IconButton>
             <IconButton
+              
               edge="end"
               aria-label="account of current user"
               aria-controls={menuId}
