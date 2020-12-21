@@ -23,16 +23,18 @@ export default function MediaCard(props) {
 
   return (
     // <Grid container justify='center' spacing={5}>
+    
         <Grid item justify='center'  xs={0}>
-          
+         <div className='grow'>
     <Card className={classes.root}>
       <CardActionArea>
-        <CardMedia
+      <CardMedia
           className={classes.media}
           image="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10360837/2020/2/10/edcecaa0-cec8-48cf-9c2f-47e35d077f7e1581326307871-HM-Men-Black-Solid-Cotton-T-shirt-Regular-Fit-77515813263072-1.jpg"
           title="Contemplative Reptile"
         />
         <CardContent>
+        
           <Typography gutterBottom variant="h5" component="h2">
              {props.brand} {props.color} {props.material} {props.id} 
             
@@ -56,9 +58,9 @@ export default function MediaCard(props) {
         </Button>
       </CardActions>
     </Card>
-   
+    </div>
     
-        </Grid>
+    </Grid> 
 //  </Grid>
    
   );

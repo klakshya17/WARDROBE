@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 
-export default function Wall_Carousel(){ 
+export default function Wall_Carousel(props){ 
 return(<Carousel>
     <Carousel.Item>
     <img
