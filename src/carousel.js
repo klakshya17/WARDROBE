@@ -11,8 +11,8 @@ return(<Carousel>
     />
 
     <Carousel.Caption>
-      <h3>Explore the store!</h3>
-      <p>Discover the widest collection of wardrobe collections</p>
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
