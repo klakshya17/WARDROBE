@@ -100,4 +100,14 @@ export const tshirts=[
     material: 'Cotton'
 
 },
+{
+    id: 't-shirt',
+    for:'Children',
+    brand: 'Pantaloons',
+    color: 'Blue',
+    price: 100,
+    size:['S','M','L'],
+    material: 'Cotton'
+
+}
 ]

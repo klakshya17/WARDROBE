@@ -25,7 +25,7 @@ export default function MediaCard(props) {
     // <Grid container justify='center' spacing={5}>
     
         <Grid item justify='center'  xs={0}>
-         <div className='grow'>
+         <div className='grow '>
     <Card className={classes.root}>
       <CardActionArea>
       <CardMedia
@@ -36,7 +36,7 @@ export default function MediaCard(props) {
         <CardContent>
         
           <Typography gutterBottom variant="h5" component="h2">
-             {props.brand} {props.color} {props.material} {props.id} 
+            {props.brand} {props.color} {props.material} {props.id} 
             
           </Typography>
           <Typography gutterBottom variant="h6" component="h2">

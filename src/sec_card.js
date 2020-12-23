@@ -25,7 +25,7 @@ export default function ImgMediaCard(props) {
     <Card className={classes.root}>
       
       <CardActionArea>
-        <div className='grow'>
+        <div className='tc grow'>
       <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -35,7 +35,7 @@ export default function ImgMediaCard(props) {
           title="Contemplative Reptile"
         />
         </div>
-        <div className='grow'>
+        <div className='tc grow'>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {props.title}
