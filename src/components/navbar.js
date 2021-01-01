@@ -14,7 +14,7 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
-
+import './navbar.css'
 const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
@@ -132,12 +132,15 @@ export default function PrimarySearchAppBar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
+      
         <IconButton aria-label="show 4 new mails" color="inherit">
           <Badge badgeContent={4} color="secondary">
             <FavoriteIcon />
           </Badge>
         </IconButton>
-        <p>Messages</p>
+        <a href='wishlist'>
+        <p>Wishlist</p>
+        </a>
       </MenuItem>
       <MenuItem>
         <IconButton aria-label="show 11 new notifications" color="inherit">
@@ -145,7 +148,9 @@ export default function PrimarySearchAppBar() {
             <LocalMallIcon />
           </Badge>
         </IconButton>
-        <p>Notifications</p>
+        <a href='shopping-bag'>
+        <p>Shopping-Bag</p>
+        </a>
       </MenuItem>
       <MenuItem onClick={handleProfileMenuOpen}>
         <IconButton
@@ -173,11 +178,11 @@ export default function PrimarySearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          
+          <a href='/'>
           <Typography className={classes.title} variant="h6" noWrap >
             WARDROBE
           </Typography>
-          
+          </a>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
@@ -198,7 +203,7 @@ export default function PrimarySearchAppBar() {
                 <FavoriteIcon />
               </Badge>
             </IconButton>
-            <IconButton href='Shopping-bag' aria-label="show 17 new notifications" color="inherit">
+            <IconButton href='shopping-bag' aria-label="show 17 new notifications" color="inherit">
               <Badge badgeContent={17} color="secondary">
                 <LocalMallIcon />
               </Badge>
