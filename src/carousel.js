@@ -6,7 +6,7 @@ return(<Carousel>
     <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://envato-shoebox-0.imgix.net/16f6/4940-b57e-4c90-8e4f-23d632c46f11/847p-1.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=12cc48588b03960f8b81b4c57dacc98d"
+      src="https://images.unsplash.com/photo-1545007805-a44ee83438fa?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
       alt="Third slide"
     />
 
@@ -18,7 +18,7 @@ return(<Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://cdn.vox-cdn.com/thumbor/NAIBeN0yZTu_JsdblTjszWLi0eA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19490489/closets_x_1.jpg"
+      src="https://images.unsplash.com/photo-1571018741658-49d3bdb201f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80umbor/NAIBeN0yZTu_JsdblTjszWLi0eA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19490489/closets_x_1.jpg"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -29,7 +29,7 @@ return(<Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://static.oprah.com/2016/10/201609-omag-4-things-in-every-womans-closet-promo-r2-949x534.jpg"
+      src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80om/2016/10/201609-omag-4-things-in-every-womans-closet-promo-r2-949x534.jpg"
       alt="Third slide"
     />
 
