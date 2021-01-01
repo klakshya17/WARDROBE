@@ -6,6 +6,8 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import {Link} from 'react-router-dom';
+
 const useStyles = makeStyles({
   root: {
     maxWidth: 600,
@@ -21,6 +23,7 @@ export default function ImgMediaCard(props) {
   return (
     
     <Grid item justify='center'  xs={0}>
+      <Link to={props.link}>
     <div className=' tc' >
     <Card className={classes.root}>
       
@@ -49,7 +52,7 @@ export default function ImgMediaCard(props) {
       
       
     </Card>
-    </div>
+    </div></Link>
    </Grid>
    
   );

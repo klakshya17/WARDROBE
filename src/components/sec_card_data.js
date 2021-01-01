@@ -2,16 +2,16 @@ export const secdata=[
     {
         title: "Men's",
         description: "Lorem ipsum",
-        link: "#"
+        link: "men"
     },
     {
         title: "Women's",
         description:"Lorem ipsum",
-        link: "#"
+        link: "women"
     },
     {
-        title:"Children's",
+        title:"Kids",
         description:"Lorem ipsum",
-        link: "#"
+        link:"kids"
     }
 ]
