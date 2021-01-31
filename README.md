@@ -10,11 +10,7 @@ Want to buy items? Just add to cart and checkout
 Carousels will walk you through the latest collections
 
 ## Tech Stack and Concepts
-MERN Stack to develop the app
- ReactJS for frontend with Material UI and React-Bootstrap at the core and tachyons for minor adjustments
- Express on top of NodeJS to handle the backend requests and APIs
- MongoDB as the database with the help of Mongoose package
- ReduxJS as state container 
+MERN Stack to develop the app. ReactJS for frontend with Material UI and React-Bootstrap at the core and tachyons package for minor frontend adjustments. Express on top of NodeJS to handle the backend requests and APIs. MongoDB as the database with the help of Mongoose package. ReduxJS as state container. NPM as the package manager.
  
 ## The Idea behindd the project was to implement a simple e-commerce website using MERN stack. The website is user-friendly, simple yet effective and eye-catching. 
 
