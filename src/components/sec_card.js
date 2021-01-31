@@ -31,10 +31,9 @@ export default function ImgMediaCard(props) {
         <div className='tc grow'>
       <CardMedia
           component="img"
-          alt="Contemplative Reptile"
           height="500"
           width="600"
-          image="https://envato-shoebox-0.imgix.net/16f6/4940-b57e-4c90-8e4f-23d632c46f11/847p-1.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=12cc48588b03960f8b81b4c57dacc98d"
+          image= {props.src}
           title="Contemplative Reptile"
         />
         </div>

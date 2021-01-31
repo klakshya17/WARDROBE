@@ -22,7 +22,7 @@ return(<Carousel>
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
+      
       <p>Discover Men's Collection</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -34,7 +34,7 @@ return(<Carousel>
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+     
       <p>Discover Women's Collection</p>
     </Carousel.Caption>
   </Carousel.Item>

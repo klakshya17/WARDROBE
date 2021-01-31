@@ -11,6 +11,7 @@ export default function MediaCard(props) {
 < Cardlist tshirt={shopping_bag}/>
 <br></br>
 <a href='/checkout'><button>Checkout</button></a>
+<br></br>
 </div>
   );
 }

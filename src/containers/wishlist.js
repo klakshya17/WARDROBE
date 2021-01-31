@@ -6,7 +6,10 @@ export default function MediaCard(props) {
   
 
   return (
-   
+   <div>
+     <br></br>
 < Cardlist tshirt={wishlist}/>
+<br></br>
+</div>
   );
 }

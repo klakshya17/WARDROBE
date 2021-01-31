@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid'
 const Cardlist=({secdata})=>
 {
 	const card_array =secdata.map((user,i)=>
-    {return(<SecCard title={secdata[i].title} description={secdata[i].description} link={secdata[i].link}  />);}
+    {return(<SecCard src={secdata[i].src} title={secdata[i].title} description={secdata[i].description} link={secdata[i].link}  />);}
     )
 	return(
     <div >

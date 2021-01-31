@@ -180,7 +180,7 @@ export default function PrimarySearchAppBar() {
           </IconButton>
           <a href='/'>
           <Typography className={classes.title} variant="h6" noWrap >
-            WARDROBE
+            PEHNAWAH
           </Typography>
           </a>
           <div className={classes.search}>

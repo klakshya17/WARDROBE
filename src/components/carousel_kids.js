@@ -22,7 +22,7 @@ return(<Carousel>
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
+      
       <p>Discover Men's Collection</p>
     </Carousel.Caption>
   </Carousel.Item>
